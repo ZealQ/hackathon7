@@ -8,7 +8,7 @@ class JobMaps extends Component {
         center: { lat: 32.7157, lng: -117.1611 },
         lat: 32.7157,
         lng: -117.1611,
-        zoom: 8
+        zoom: 11
     };
     render() {
         return (
@@ -19,7 +19,7 @@ class JobMaps extends Component {
                 <AnyReactComponent
                     lat={this.props.lat}
                     lng={this.props.lng}
-                    text={(<i className="fa fa-black-tie fa-3x"></i>)}
+                    text={<i className="fa fa-black-tie fa-3x"></i>}
                 />
             </GoogleMapReact>
         );

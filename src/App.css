@@ -48,3 +48,13 @@ body {
 #search {
   width:350px;
 }
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+#des { 
+  padding: 50px;
+  border: 1px solid #000000;
+  white-space: pre-line;
+}
