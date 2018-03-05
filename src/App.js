@@ -106,13 +106,17 @@ class App extends Component {
 
                   <JobMaps
                     lat={this.state.location && this.state.location.lat}
-                    lng={this.state.location && this.state.location.log}
+                    lng={this.state.location && this.state.location.lng}
                     jobs={this.state.location && this.state.location} />
                 </div>
               </div>
             </div>
           </div>
           <div className="col-12">
+
+
+
+          
             <pre>
               {this.state.jobs &&
                 this.state.jobs.map(job => {

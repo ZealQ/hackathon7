@@ -3,6 +3,10 @@ import GoogleMapReact from "google-map-react";
 
 let AnyReactComponent = ({text}) => <div>{text}</div>;
 
+const GoogleMapConfig = { key:"AIzaSyBg5NgQ-B_PwxOWvFkc1_gf1iLTW9wBpLU"
+
+}
+
 class JobMaps extends Component {
     static defaultProps = {
         center: { lat: 32.7157, lng: -117.1611 },
